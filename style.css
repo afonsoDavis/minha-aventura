@@ -1,0 +1,33 @@
+body {
+    background-color: #2b9035;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #2e570f;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #3b6a1e; 
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
